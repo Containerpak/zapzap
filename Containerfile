@@ -5,7 +5,7 @@ ADD --checksum=sha256:c35c75854d92e8a303215eb4859582be984b813e6a34a544770a500398
     /tmp/zapzap.tar.gz
 
 RUN apt update && \
-    apt install -y --no-install-recommends python3-pyqt6 python3-pyqt6.qtwebengine python3-pyqt6.qtsvg python3-dbus && \
+    apt install -y --no-install-recommends python3-setuptools python3-pyqt6 python3-pyqt6.qtwebengine python3-pyqt6.qtsvg python3-dbus && \
     mkdir /tmp/zapzap && \
     tar -xzf /tmp/zapzap.tar.gz --strip-components=1 -C /tmp/zapzap && \
     cd /tmp/zapzap && \
