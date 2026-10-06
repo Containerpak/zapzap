@@ -4,7 +4,7 @@
   "name": "ZapZap",
   "description": "WhatsApp desktop application written with PyQt6.",
   "version": "4.5.2",
-  "image": "ghcr.io/containerpak/zapzap@sha256:14b24420f9b6589e37211fae522b7ccf6a8e69e6dcbb1108d83ae2d3bff8e824",
+  "image": "ghcr.io/containerpak/zapzap@sha256:a9fdb2e3949ff6301780bf318cd77422b59286e46c04867cdc5fe1dccd12a34b",
   "binaries": [
     "/usr/local/bin/zapzap"
   ],
